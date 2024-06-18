@@ -25,7 +25,7 @@ jobs:
 
     - name: Build Docker Image
       run:
-        docker build --tag vdvictor/graphql-actions:2.0.0 .
+        docker build --tag vdvictor/graphql-actions:2.0.0 . &&
         docker build --tag vdvictor/graphql-actions:latest .
 
     - name: Push Docker Image
