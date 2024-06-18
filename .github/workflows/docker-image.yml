@@ -30,7 +30,7 @@ jobs:
 
     - name: Push Docker Image
       run:
-        docker push vdvictor/graphql-actions:2.0.0
+        docker push vdvictor/graphql-actions:2.0.0 &&
         docker push vdvictor/graphql-actions:latest
       
 
